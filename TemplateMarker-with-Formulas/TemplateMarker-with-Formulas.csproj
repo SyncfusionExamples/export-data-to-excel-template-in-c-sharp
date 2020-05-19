@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{053985C5-8305-42B1-BD46-B2FAE016D642}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TemplateMarker</RootNamespace>
+    <AssemblyName>TemplateMarker</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base, Version=18.1451.0.45, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Compression.Base.18.1.0.45\lib\net451\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=18.1451.0.45, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Licensing.18.1.0.45\lib\net451\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base, Version=18.1451.0.45, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.XlsIO.WinForms.18.1.0.45\lib\net451\Syncfusion.XlsIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EmbeddedResource Include="Data\Formulas.xlsx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\customers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Man1.jpg" />
+    <EmbeddedResource Include="Images\Man10.png" />
+    <EmbeddedResource Include="Images\Man11.jpg" />
+    <EmbeddedResource Include="Images\Man12.jpg" />
+    <EmbeddedResource Include="Images\Man13.jpg" />
+    <EmbeddedResource Include="Images\Man14.jpg" />
+    <EmbeddedResource Include="Images\Man15.jpg" />
+    <EmbeddedResource Include="Images\Man16.jpg" />
+    <EmbeddedResource Include="Images\Man17.jpg" />
+    <EmbeddedResource Include="Images\Man18.jpg" />
+    <EmbeddedResource Include="Images\Man2.png" />
+    <EmbeddedResource Include="Images\Man3.jpg" />
+    <EmbeddedResource Include="Images\Man4.png" />
+    <EmbeddedResource Include="Images\Man5.jpg" />
+    <EmbeddedResource Include="Images\Man6.png" />
+    <EmbeddedResource Include="Images\Man7.jpg" />
+    <EmbeddedResource Include="Images\Man8.png" />
+    <EmbeddedResource Include="Images\Man9.jpg" />
+    <EmbeddedResource Include="Images\Woman1.jpg" />
+    <EmbeddedResource Include="Images\Woman10.jpg" />
+    <EmbeddedResource Include="Images\Woman11.jpg" />
+    <EmbeddedResource Include="Images\Woman12.jpg" />
+    <EmbeddedResource Include="Images\Woman13.jpg" />
+    <EmbeddedResource Include="Images\Woman14.jpg" />
+    <EmbeddedResource Include="Images\Woman2.png" />
+    <EmbeddedResource Include="Images\Woman3.jpg" />
+    <EmbeddedResource Include="Images\Woman4.png" />
+    <EmbeddedResource Include="Images\Woman5.jpg" />
+    <EmbeddedResource Include="Images\Woman6.png" />
+    <EmbeddedResource Include="Images\Woman7.jpg" />
+    <EmbeddedResource Include="Images\Woman8.jpg" />
+    <EmbeddedResource Include="Images\Woman9.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

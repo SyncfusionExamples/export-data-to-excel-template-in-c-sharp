@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30105.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMarker-Vertical-Argument", "TemplateMarker-Vertical-Argument.csproj", "{A6C5AB04-F00E-4593-B57A-28E0D41EFB9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6C5AB04-F00E-4593-B57A-28E0D41EFB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C5AB04-F00E-4593-B57A-28E0D41EFB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C5AB04-F00E-4593-B57A-28E0D41EFB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C5AB04-F00E-4593-B57A-28E0D41EFB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {655009D2-9B82-41F7-B882-BF199A4D395C}
+	EndGlobalSection
+EndGlobal
